@@ -1,0 +1,15 @@
+colocando "!" e dando enter ele preenche um código base do html
+"Alt + Shift + F" organiza os códigos
+PASCALCASE
+SCREAMING_SNAKE_CASE
+camelCase
+snake_case
+kebab-case
+
+Convenção	              Exemplo
+Camel case  	            primeiroNomePessoa
+Pascal case             	PrimeiroNomePessoa
+Snake case	                primeiro_nome_pessoa
+Screaming snake case	    PRIMEIRO_NOME_PESSOA
+Kebab case	                primeiro-nome-pessoa
+Screaming kebab case	    PRIMEIRO-NOME-PESSOA

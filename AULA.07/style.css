@@ -1,0 +1,40 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25.0px;
+}
+
+#Nome{
+    width: 150px;
+    height: 15px;
+}
+#Idade{
+    width: 30px;
+}
+#CEP{
+    width: 90px;
+    font: white;
+    margin: left 5px;
+}
+#enviar{
+    margin-left: 150px;
+}
+#Email{
+    width: 145px;
+}
+#Senha{
+    width: 147px;
+}
+input{
+    border-radius: 25px;
+    background-color: rgb(106, 171, 225);
+    margin-left: 1px;
+}
+form{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(101, 191, 255);
+
+}
+label{
+    margin-left:50px;
+}

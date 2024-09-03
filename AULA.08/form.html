@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXXXXXX</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro</legend>
+        </fieldset>
+        <fieldset>
+            <select name="Lista de carros" id="carros">
+                <option disabled selected hidden>Selecione</option>
+                <option value="Evoque">Evoque</option>
+                <option value="Celta">Celta</option>
+                <option value="Velar">Velar</option>
+                <option value="Ferrari SF90">Ferrari SF90</option>
+                <option value="Stilo"> Fiat Stilo</option>
+            </select>
+
+            <p>Região</p>
+            <input autocomplete="on" list="regiao" placeholder="Ex: São Paulo">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Santa Catarina"></option>
+                <option value="Acapulco"></option>
+        </fieldset>
+        </datalist>
+        <input type="range" id="tst"><br><br>
+        <label for="feedback">Deixe seu FeedBack</label>
+        <br>
+        <textarea name="feedback" id="feedback" cols="20" rows="10" required placeholder="Deixe se feedback"></textarea>
+    </form>
+</body>
+
+</html>

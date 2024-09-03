@@ -1,0 +1,19 @@
+thead{
+    background-color: rgb(166, 134, 5);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+}
+tbody{
+    background-color: blanchedalmond;
+}
+table{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin-top: auto;
+    margin-left: auto;
+}
