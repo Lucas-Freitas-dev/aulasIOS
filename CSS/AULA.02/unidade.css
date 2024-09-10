@@ -1,0 +1,14 @@
+* {
+
+}
+ul{
+    list-style: none;
+    font-size: 38px;
+}
+ li{
+    font-size: 2rem;
+ }
+ p{
+    font-size: 15px;
+ }
+ /* regra de 3 no caso 25 é 100% e para descobrir a porcentagem que equivale a 15 seria 60%  */
