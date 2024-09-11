@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    font-family: 'Protest Guerrilla';
+    color: #ffffff;
+  }
+  body{
+    background-color: black;
+  }
+  h2{
+    text-align: center;
+  }
+  .Maquiavel{
+    text-align: justify;
+    line-height: 250%;
+    font-style: italic;
+    padding: 200px;
+    right: 50px;
+  }
+  .m1{
+    position:absolute;
+    left: 200px;
+    top: 350px;
+    width: 350px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px white);
+  }
