@@ -1,0 +1,18 @@
+.titulo{
+    color: yellow;
+}
+.sombra{
+    filter: drop-shadow(2px 4px 3px black);
+}
+.italico{
+    font-style: italic;
+}
+#ola{
+    color: red;
+}
+#alo{
+    color: blue;
+}
+#eai{
+    color: yellow;
+}

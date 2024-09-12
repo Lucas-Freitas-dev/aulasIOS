@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/01/super-mario-pixel-art.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    border: 5px double white;
+    width: 300px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    position: relative;
+    font-size: 24px;
+}
+
+.box::before,
+.box::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background-color: white;
+}
+
+.box::before {
+    top: -10px;
+    left: -10px;
+}
+
+.box::after {
+    bottom: -10px;
+    right: -10px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.selected:hover {
+    color: yellow;
+}
+
+.selected2:hover {
+    color: yellow;
+
+}
