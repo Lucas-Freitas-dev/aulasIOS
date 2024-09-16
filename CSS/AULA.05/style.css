@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.primeiro{
+padding: 20px 40px 30px 50px;
+/* padding-top: 20px;
+padding-right: 40px;
+padding-bottom: 30px;
+padding-left: 50px; */
+color: aqua;
+}
+.segundo{
+margin: 10px 20px 30px 40px;
+/* margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px; */
+color: aquamarine;
+}

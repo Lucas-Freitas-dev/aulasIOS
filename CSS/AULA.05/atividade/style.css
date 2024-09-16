@@ -1,0 +1,42 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+}
+body { 
+    background-color: #c47b7b; 
+    color: #555555; 
+    font: normal 16px Arial, Helvetica, sans-serif; 
+    line-height: 1.6em; 
+    margin: 0; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{ 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 15px; 
+    border: none; 
+    /* display: block;
+    padding-top: 5px;
+    margin: 5px; */
+}
+.container { 
+    width: 80%; 
+    margin: 20px 30px; 
+    background-color: #555555;
+}
+.caixa-1 { 
+    background-color: #333; 
+    color: #fff; 
+    border-right: 5px red solid; 
+    border-left: 5px red solid; 
+    border-top: 5px red solid; 
+    border-bottom: 5px red solid; 
+    border-width: 3px; 
+    border-bottom-width: 10px; 
+    border-top-style: dotted; 
+    padding: 20px; 
+}

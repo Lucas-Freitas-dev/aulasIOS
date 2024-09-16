@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 5px;
+    font-size: 69, 5%;
+}
+.box1 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.box2 {
+    background-color: hotpink;
+    width: 250px;
+    height: 250px;
+}
+
+.box3 {
+    background-color: lemonchiffon;
+    width: 100vmin;
+    height: x;
+}
