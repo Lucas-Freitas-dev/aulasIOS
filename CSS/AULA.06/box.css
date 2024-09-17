@@ -1,0 +1,22 @@
+div{
+    height: 250px;
+    width: 250px;
+    border: dotted 1px;
+    margin:  0.5em;
+}
+
+.box1{
+    /* border-color: firebrick; */
+    box-sizing: content-box;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px red;
+}
+.box2{
+    box-sizing: border-box;
+    /* border-color: powderblue; */
+    font-size: 2em;
+    padding: 20px;
+    border: dotted 10px rebeccapurple;
+}
+
