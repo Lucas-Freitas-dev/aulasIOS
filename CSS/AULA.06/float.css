@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 40px;
+}
+img{
+    float: right;
+    border: dashed 2px khaki;
+    width: 45vmin;
+}
+div{
+    border: dashed 2px hotpink;
+   overflow: auto;
+}

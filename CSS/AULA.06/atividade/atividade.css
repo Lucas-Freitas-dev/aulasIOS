@@ -1,0 +1,22 @@
+*{
+    font-size: 62. 5%;
+}
+section{
+    border: solid 3px red;
+    width: 100%;
+    text-align: center;
+}
+.primeiro{
+    float: left;
+}
+div{
+    margin: 10px;
+    width: 25vw;
+}
+img{
+border: solid 2px blue;
+width: 250px;
+}
+.segundo{
+    float: right;
+}
