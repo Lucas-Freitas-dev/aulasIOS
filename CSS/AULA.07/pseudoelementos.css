@@ -1,0 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 62. 5%;
+}
+p::before{
+    content: "🐶";
+}
