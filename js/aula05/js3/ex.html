@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Gera um número aleatório entre 0 e 10
+    const numeroSorteado = Math.floor(Math.random() * 11);
+    let palpite;
+    let tentativas = 0;
+    
+    do {
+        // Solicita ao usuário que insira um número
+        palpite = prompt("Adivinhe um número entre 0 e 10:");
+        palpite = Number(palpite); // Converte a entrada para um número
+        tentativas++;
+    
+        if (palpite === numeroSorteado) {
+            alert("Parabéns, você acertou! O número era " + numeroSorteado + ". Tentativas: " + tentativas);
+        } else {
+            alert("Tente novamente!");
+        }
+    } while (palpite !== numeroSorteado);
+    </script>
+
+</body>
+</html>
