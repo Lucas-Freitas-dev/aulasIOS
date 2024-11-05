@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .padrinho {
+            height: 300px;
+            width: 300px;
+            border: 1px solid blue;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="padrinho" onclick="trocarNome()">
+        <h1>Caio</h1>
+    </div>
+
+    <script>
+        let elemento = document.querySelector('.padrinho');
+        let nomeAtual = document.querySelector('h1');
+        let nomeOriginal = 'Caio';
+        let novoNome = 'Ermerson';
+
+        const gerarCorAleatoria = () => {
+            const letras = '0123456789ABCDEF';
+            let cor = '#';
+            for (let i = 0; i < 6; i++) {
+                cor += letras[Math.floor(Math.random() * 16)];
+            }
+            return cor;
+        };
+
+        const trocarNome = () => {
+            elemento.style.backgroundColor = gerarCorAleatoria();
+            nomeAtual.innerHTML === nomeOriginal ? nomeAtual.innerHTML = novoNome : nomeAtual.innerHTML = nomeOriginal;
+        }
+            ;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="elemento0">aaa</h1>
+    <h2 class="elemento2">Elemento 1</h2>
+    <h2 class="elemento2">Elemento 2</h2>
+    <p class="elemento2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quo ullam magnam
+        praesentium quis possimus facere error ut fugit quia suscipit officiis est laudantium fugiat tenetur consequatur
+        aut expedita nesciunt.</p>
+    <script>
+        let elementoX = document.getElementById('elemento0')
+
+        let elementos = document.getElementsByClassName('elemento2')
+
+        for (let contador = 0; contador < elementos.length; contador++) {
+            elementos[contador].style.color = 'red';
+
+        
+        }
+        console.log(elementos);
+        </script>
+
+</body>
+
+</html>

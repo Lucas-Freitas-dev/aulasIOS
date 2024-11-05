@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="peso">Peso</label>
+        <input type="number" id="peso">
+        <label for="altura">Altura</label>
+        <input type="number" id="altura">
+
+        <input type="submit" value="Enviar" onclick="calcularIMC()">
+    </form>
+    <div>
+        <h2>IMC</h2>
+    </div>
+
+
+    <script>
+
+        let altura, peso, texto
+        
+        texto = document.querySelector('h2')
+        
+        const calcularIMC = () => {
+            let peso =  Number(document.querySelector('#peso').value)
+            let altura = Number(document.querySelector('#altura').value)
+            let imc = peso / (altura * altura)
+            texto.textContent = `Seu IMC é ${imc.toFixed(2)}`
+        }
+
+
+    </script>
+</body>
+
+</html>

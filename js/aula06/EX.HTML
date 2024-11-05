@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myName">Lucas</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus.</p>
+    <p>Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+    <p>Suspendisse potenti. Nunc feugiat mi a tellus consequat.</p>
+    
+    <script>
+        // Mudar a cor do primeiro elemento H1
+        const heading = document.querySelector('h1');
+        heading.style.color = 'blue';
+
+        // Mudar o primeiro parágrafo para o nome
+        const firstParagraph = document.querySelector('p');
+        firstParagraph.textContent = 'ChatGPT';
+
+        // Mudar as cores dos parágrafos usando getElementsByTagName
+        const paragraphs = document.getElementsByTagName('p');
+        for (let i = 0; i < paragraphs.length; i++) {
+            paragraphs[i].style.color = i % 2 === 0 ? 'green' : 'purple';
+        }
+    </script>
+</body>
+</html>
